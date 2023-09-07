@@ -3,6 +3,7 @@ import TextContent from './TextContent'
 import EqBeats from '../Hero/EqBeats'
 import ListToDisplay from './ListToDisplay'
 import ProgressBar from './ListToDisplay'
+import Signature from './Signature'
 
 const SelfAwarenessTest = () => {
   return (
@@ -10,6 +11,8 @@ const SelfAwarenessTest = () => {
         <TextContent/>
         <ListToDisplay/>
          <EqBeats/>
+
+         <Signature/>
     </div>
   )
 }

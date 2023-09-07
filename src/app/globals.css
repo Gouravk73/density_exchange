@@ -23,4 +23,6 @@
   text-decoration: none;
 }
  
- 
+.cursive-font {
+  font-family: 'Cursive Font Name', cursive; /* Replace 'Cursive Font Name' with the actual font name */
+}
