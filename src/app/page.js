@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero/Hero";
+import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main  >
          <Header/>
          <Hero/>
-     </main>
+         <Footer/>
+       </main>
   )
 }

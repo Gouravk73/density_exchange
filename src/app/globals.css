@@ -23,40 +23,4 @@
   text-decoration: none;
 }
  
-@keyframes moveAround {
-  0% {
-    transform: translateX(0) translateY(-100%);
-    -webkit-transform: translateX(0) translateY(-100%);
-    -moz-transform: translateX(0) translateY(-100%);
-    -ms-transform: translateX(0) translateY(-100%);
-    -o-transform: translateX(0) translateY(-100%);
-}
-  25% {
-    transform: translateX(100%) translateY(0);
-    -webkit-transform: translateX(100%) translateY(0);
-    -moz-transform: translateX(100%) translateY(0);
-    -ms-transform: translateX(100%) translateY(0);
-    -o-transform: translateX(100%) translateY(0);
-}
-  50% {
-    transform: translateX(0) translateY(50%);
-  }
-  75% {
-    transform: translateX(-100%) translateY(0);
-    -webkit-transform: translateX(-100%) translateY(0);
-    -moz-transform: translateX(-100%) translateY(0);
-    -ms-transform: translateX(-100%) translateY(0);
-    -o-transform: translateX(-100%) translateY(0);
-}
-  100% {
-    transform: translateX(0) translateY(-100%);
-    -webkit-transform: translateX(0) translateY(-100%);
-    -moz-transform: translateX(0) translateY(-100%);
-    -ms-transform: translateX(0) translateY(-100%);
-    -o-transform: translateX(0) translateY(-100%);
-}
-}
-
-.animate-moveAround {
-  animation: moveAround 5s linear infinite;
-}
+ 
