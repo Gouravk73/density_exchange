@@ -8,7 +8,7 @@ const VacanciContainer = ({title}) => {
     }
   return (
     <div 
-        className='flex flex-col justify-center items-center px-8 bg-yellow-100 mx-2'
+        className='flex flex-col h-[30vh] justify-center items-center px-8 bg-yellow-100 mx-2'
         onMouseEnter={()=>setIsHover(true)}
         onMouseLeave={()=>setIsHover(false)}
         >
